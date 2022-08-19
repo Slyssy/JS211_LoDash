@@ -1,0 +1,24 @@
+{
+  "name": "js211_lodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slyssy/JS211_LoDash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slyssy/JS211_LoDash/issues"
+  },
+  "homepage": "https://github.com/Slyssy/JS211_LoDash#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mocha": "^10.0.0"
+  }
+}
