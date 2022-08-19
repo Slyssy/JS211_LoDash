@@ -3,29 +3,25 @@ const assert = require('assert');
 
 const myArray = [11, 11, 49, 12, 20, 76, 8, 21, 38, 5, 17, 74];
 
+// * Using lodash .chunk() to group an array into an array of arrays with a length of 3
 const chunkify = (array) => {
   const chunkedArray = _.chunk(array, [3]);
   return chunkedArray;
 };
 
-// const [mom, kristin, dad, brian] = familyBirthdayArrays;
-
-// console.log(familyBirthdayArrays);
-// console.log('Mom:', mom);
-// console.log('Kristin: ', kristin);
-// console.log('Dad: ', dad);
-// console.log('Brian: ', brian);
-
+// * Using lodash .reverse() to reverse an array.
 const reverseArray = (array) => {
   const arrayReversed = _.reverse(array);
   return arrayReversed;
 };
 
-const withoutItemArray = (array, items) => {
-  const resultArray = _.without(array, items);
+// * Using lodash .without() to remove an item from an array
+const withoutItemArray = (array, item) => {
+  const resultArray = _.without(array, item);
   return resultArray;
 };
 
+// * Using lodash .shuffle() to shuffle an array.
 const shuffleArray = (array) => {
   const arrayShuffled = _.shuffle(array);
   return arrayShuffled;
